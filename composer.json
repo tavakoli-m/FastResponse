@@ -1,0 +1,18 @@
+{
+    "name": "fastresponse/fastresponse",
+    "description": "fast response is a simple and powerfull pakage for managing api responses in Laravel. Using this pakage, you can manage standardzed, readable, and optimized responses quickly and without repetitive coding.",
+    "type": "pakage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fastresponse\\Fastresponse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammadreza Tavakoli",
+            "email": "heyreza8@gmail.com"
+        }
+    ],
+    "require": {}
+}
