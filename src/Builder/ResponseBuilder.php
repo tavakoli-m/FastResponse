@@ -2,6 +2,9 @@
 
 namespace FastResponse\FastResponse\Builder;
 
-class ResponseBuilder{
-    
+use FastResponse\FastResponse\BaseResponse\BaseResponse;
+
+class ResponseBuilder
+{
+    public function __construct(private BaseResponse $baseResponse) {}
 }
