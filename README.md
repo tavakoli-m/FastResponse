@@ -19,7 +19,7 @@
 composer require fastresponse/fastresponse
 ```
 
-#### 1. Add Fast Response Service Provider To application:
+#### 1. Add `FastResponse\FastResponse\Providers\FastResponseServiceProvider::class` To application:
 
 ### laravel <= 10
 
