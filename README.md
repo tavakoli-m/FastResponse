@@ -34,7 +34,7 @@ you shuold add provider in `bootstrap/providers.php`
 use fast response facade
 
 ```php
-    use FastResponse\FastResponse\Facades\Response;
+use FastResponse\FastResponse\Facades\Response;
 ```
 
 ## Set Response Status
@@ -59,4 +59,10 @@ return Response::withMessage('my message')->send();
 
 ```php
 return Response::withAppends(['appends' => 'some data'])->send();
+```
+
+## Merge All Methods
+
+```php
+return Response::withStatus(200)->withData(['key' => 'value'])->withAppends(['user' => ['id' => 1, 'email' => 'email@email.com']])->withMessage('response message')->send();
 ```
