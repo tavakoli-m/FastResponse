@@ -28,3 +28,35 @@ you shuold add provider in `config/app.php`
 ### laravel >= 11
 
 you shuold add provider in `bootstrap/providers.php`
+
+## Usage Fast Response
+
+use fast response facade
+
+```php
+    use FastResponse\FastResponse\Facades\Response;
+```
+
+## Set Response Status
+
+```php
+return Response::withStatus(200)->send();
+```
+
+## Set Response Data
+
+```php
+return Response::withData(['key' => 'value'])->send();
+```
+
+## Set Response Message
+
+```php
+return Response::withMessage('my message')->send();
+```
+
+## Set Response Appends Data
+
+```php
+return Response::withAppends(['appends' => 'some data'])->send();
+```
