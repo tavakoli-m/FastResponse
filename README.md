@@ -23,11 +23,11 @@ composer require fastresponse/fastresponse
 
 ### laravel <= 10
 
-you shuold add provider in `config/app.php`
+you should add provider in `config/app.php`
 
 ### laravel >= 11
 
-you shuold add provider in `bootstrap/providers.php`
+you should add provider in `bootstrap/providers.php`
 
 ## Usage Fast Response
 
